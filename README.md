@@ -1,7 +1,7 @@
-rm(list = ls())
-dev.off(dev.list()['RStudioGD'])
 # Install and load the packages
 ```
+rm(list = ls())
+dev.off(dev.list()['RStudioGD'])
 ipack <- function(pkg){
   new.pkg <- pkg[!(pkg %in% installed.packages()[, 'Package'])]
   if (length(new.pkg)) 
