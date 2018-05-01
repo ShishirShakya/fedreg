@@ -121,4 +121,4 @@ p <- ggplot(mapping = aes(variable, y = rank, group = Sectors, color = Sectors))
   xlab('Years') 
 p
 ```
-
+![subwayplot](https://user-images.githubusercontent.com/23665666/39478815-762e0872-4d31-11e8-8722-2943a3112aa4.PNG)
