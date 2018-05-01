@@ -745,7 +745,7 @@ rm(blsdf, EMPIO, CMPIO, CMPEMPIO, bls, panel_data)
 ```
 
 ## Data Management for Modeling
-### Main Resource : http://www.princeton.edu/~otorres/Panel101R.pdf
+```
 Panel <- read_csv('panel_data.csv')[,-1]
 Panel$ImpA <- Panel$Imports + abs(min(Panel$Imports)+1)
 
@@ -762,4 +762,5 @@ write.csv(pdf, 'Panel_data_transformation.csv')
 rm(Panel,id_df, IndustryOutput, economy, network_metrics, regulation)
 ```
 
+## Tableau Visualization
 The Tableau visualization is given here: https://public.tableau.com/profile/shishir.shakya#!/vizhome/IndustrialNetworkOutputProductivityFederalRegulations/Dashboard1
